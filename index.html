@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CircuitFoundry - Electronics Project Builder</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/auth.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <header class="header">
+            <div class="container">
+                <div class="header-content">
+                    <h1 class="logo">CircuitFoundry</h1>
+                    <nav class="nav" id="main-nav">
+                        <ul class="nav-list">
+                            <li><a href="index.html" class="nav-link">Home</a></li>
+                            <li><a href="components.html" class="nav-link">Components</a></li>
+                            <li><a href="projects.html" class="nav-link">Projects</a></li>
+                            <li><a href="inventory.html" class="nav-link">Inventory</a></li>
+                            <li><a href="saved-projects.html" class="nav-link">Saved Projects</a></li>
+                            <li><a href="profile.html" class="nav-link">Profile</a></li>
+                        </ul>
+                    </nav>
+                    <div class="auth-section" id="auth-section">
+                        <a href="login.html" class="btn btn-primary">Login</a>
+                        <a href="signup.html" class="btn btn-secondary">Sign Up</a>
+                    </div>
+                    <div class="user-section" id="user-section" style="display: none;">
+                        <span class="welcome-text">Welcome, <span id="username-display">User</span></span>
+                        <button class="btn btn-logout" onclick="logout()">Logout</button>
+                    </div>
+                    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="container">
+                <section class="hero" id="home-section">
+                    <h2 class="hero-title">Discover Electronics Projects</h2>
+                    <p class="hero-subtitle">Find projects you can build with your own components</p>
+                    <div class="hero-actions">
+                        <a href="projects.html" class="btn btn-primary btn-large">Find Projects</a>
+                        <a href="components.html" class="btn btn-secondary btn-large">Browse Components</a>
+                    </div>
+                </section>
+
+                <section class="dashboard-overview" id="dashboard-section" style="display: none;">
+                    <h2 class="section-title">Your Dashboard</h2>
+                    <div class="dashboard-grid">
+                        <div class="dashboard-card">
+                            <h3 class="card-title">Current Budget</h3>
+                            <p class="card-value" id="dashboard-budget">₹0</p>
+                            <p class="card-description">Set your project budget</p>
+                        </div>
+                        <div class="dashboard-card">
+                            <h3 class="card-title">Components Owned</h3>
+                            <p class="card-value" id="dashboard-components">0</p>
+                            <p class="card-description">Total components in inventory</p>
+                        </div>
+                        <div class="dashboard-card">
+                            <h3 class="card-title">Saved Projects</h3>
+                            <p class="card-value" id="dashboard-saved-projects">0</p>
+                            <p class="card-description">Projects in your collection</p>
+                        </div>
+                    </div>
+                    <div class="dashboard-actions">
+                        <a href="projects.html" class="btn btn-primary">Find Projects</a>
+                        <a href="inventory.html" class="btn btn-secondary">Manage Inventory</a>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h3 class="footer-title">CircuitFoundry</h3>
+                        <p class="footer-description">Your comprehensive platform for discovering and building electronics projects.</p>
+                    </div>
+                    <div class="footer-section">
+                        <h3 class="footer-title">Quick Links</h3>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="components.html">Components</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="about.html">About</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h3 class="footer-title">Support</h3>
+                        <ul class="footer-links">
+                            <li><a href="help.html">Help Center</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="privacy.html">Privacy Policy</a></li>
+                            <li><a href="terms.html">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p class="copyright">© 2024 CircuitFoundry. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/app.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>

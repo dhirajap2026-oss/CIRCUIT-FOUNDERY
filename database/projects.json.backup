@@ -1,0 +1,31 @@
+{
+  "id": "PROJECT001",
+  "name": "Automatic Night Lamp",
+  "category": "Home Automation",
+  "difficulty": "Beginner",
+  "description": "An LDR-based circuit that controls an LED according to ambient light.",
+  "estimatedBuildTime": "1-2 hours",
+  "budget": 150,
+  "components": [
+    {
+      "componentId": "COMP001",
+      "name": "Resistor 220 Ohm",
+      "quantity": 2,
+      "unitPrice": 2,
+      "totalPrice": 4
+    }
+  ],
+  "instructions": [
+    "Prepare the required components.",
+    "Build the circuit on a breadboard.",
+    "Check the connections before applying power."
+  ],
+  "learningOutcomes": [
+    "Understand light-dependent resistance.",
+    "Learn basic circuit connections."
+  ],
+  "safetyNotes": [
+    "Use a suitable low-voltage power supply."
+  ]
+}
+]

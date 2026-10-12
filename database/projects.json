@@ -1,0 +1,572 @@
+[
+  {
+    "id": "PROJECT001",
+    "name": "Automatic Night Lamp",
+    "category": "Home Automation",
+    "difficulty": "Beginner",
+    "description": "An LDR-based circuit that controls an LED according to ambient light.",
+    "estimatedBuildTime": "1-2 hours",
+    "budget": 150,
+    "components": [
+      {
+        "componentId": "COMP001",
+        "name": "Resistor 220 Ohm",
+        "quantity": 2,
+        "unitPrice": 2,
+        "totalPrice": 4
+      }
+    ],
+    "instructions": [
+      "Prepare the required components.",
+      "Build the circuit on a breadboard.",
+      "Check the connections before applying power."
+    ],
+    "learningOutcomes": [
+      "Understand light-dependent resistance.",
+      "Learn basic circuit connections."
+    ],
+    "safetyNotes": [
+      "Use a suitable low-voltage power supply."
+    ]
+  },
+  {
+    "id": "PROJECT002",
+    "name": "LED Blinking Circuit using NE555",
+    "category": "Timers",
+    "difficulty": "Beginner",
+    "description": "A NE555 timer-based circuit that blinks an LED at adjustable intervals.",
+    "estimatedBuildTime": "1-2 hours",
+    "budget": 200,
+    "components": [
+      {
+        "componentId": "COMP018",
+        "name": "NE555 Timer IC",
+        "quantity": 1,
+        "unitPrice": 5,
+        "totalPrice": 5
+      },
+      {
+        "componentId": "COMP008",
+        "name": "Red LED",
+        "quantity": 1,
+        "unitPrice": 1,
+        "totalPrice": 1
+      },
+      {
+        "componentId": "COMP007",
+        "name": "Ceramic Capacitor 0.1uF",
+        "quantity": 1,
+        "unitPrice": 2,
+        "totalPrice": 2
+      },
+      {
+        "componentId": "COMP020",
+        "name": "LM7805 Voltage Regulator",
+        "quantity": 1,
+        "unitPrice": 7,
+        "totalPrice": 7
+      }
+    ],
+    "instructions": [
+      "Prepare all components and breadboard.",
+      "Connect NE555 timer according to circuit diagram.",
+      "Adjust the potentiometer for desired blinking frequency.",
+      "Test the circuit with a 5V power supply."
+    ],
+    "learningOutcomes": [
+      "Understand NE555 timer operation.",
+      "Learn RC timing circuits.",
+      "Practice circuit building skills."
+    ],
+    "safetyNotes": [
+      "Handle all connections carefully.",
+      "Use a regulated 5V power supply."
+    ]
+  },
+  {
+    "id": "PROJECT003",
+    "name": "Water Level Indicator",
+    "category": "Sensors",
+    "difficulty": "Beginner",
+    "description": "A water level detector circuit using a float switch and LED indicator.",
+    "estimatedBuildTime": "1-2 hours",
+    "budget": 300,
+    "components": [
+      {
+        "componentId": "COMP006",
+        "name": "Capacitor 100uF",
+        "quantity": 1,
+        "unitPrice": 5,
+        "totalPrice": 5
+      },
+      {
+        "componentId": "COMP027",
+        "name": "PIR Motion Sensor",
+        "quantity": 1,
+        "unitPrice": 6,
+        "totalPrice": 6
+      },
+      {
+        "componentId": "COMP008",
+        "name": "Red LED",
+        "quantity": 1,
+        "unitPrice": 1,
+        "totalPrice": 1
+      },
+      {
+        "componentId": "COMP017",
+        "name": "IRFZ44N MOSFET",
+        "quantity": 1,
+        "unitPrice": 8,
+        "totalPrice": 8
+      }
+    ],
+    "instructions": [
+      "Assemble the float switch mechanism.",
+      "Connect the switch to the PIR sensor circuit.",
+      "Wire the LED with current limiting resistor.",
+      "Power the circuit and test the indicator."
+    ],
+    "learningOutcomes": [
+      "Understand float switch operation.",
+      "Learn water detection circuits.",
+      "Build practical sensor systems."
+    ],
+    "safetyNotes": [
+      "Use waterproof connectors.",
+      "Keep electronics away from water sources."
+    ]
+  },
+  {
+    "id": "PROJECT004",
+    "name": "Soil Moisture Monitoring System",
+    "category": "Sensors",
+    "difficulty": "Intermediate",
+    "description": "A soil moisture sensor circuit with Arduino for monitoring plant moisture levels.",
+    "estimatedBuildTime": "2-3 hours",
+    "budget": 500,
+    "components": [
+      {
+        "componentId": "COMP032",
+        "name": "DS1307 RTC",
+        "quantity": 1,
+        "unitPrice": 5,
+        "totalPrice": 5
+      },
+      {
+        "componentId": "COMP007",
+        "name": "Ceramic Capacitor 0.1uF",
+        "quantity": 1,
+        "unitPrice": 2,
+        "totalPrice": 2
+      },
+      {
+        "componentId": "COMP033",
+        "name": "16x2 LCD Display",
+        "quantity": 1,
+        "unitPrice": 8,
+        "totalPrice": 8
+      },
+      {
+        "componentId": "COMP023",
+        "name": "Arduino Uno",
+        "quantity": 1,
+        "unitPrice": 25,
+        "totalPrice": 25
+      }
+    ],
+    "instructions": [
+      "Connect the soil moisture sensor to Arduino analog input.",
+      "Initialize I2C communication for LCD.",
+      "Upload the monitoring code to Arduino.",
+      "Test and calibrate the moisture readings."
+    ],
+    "learningOutcomes": [
+      "Understand soil moisture sensing technology.",
+      "Learn data acquisition and display.",
+      "Develop IoT sensor systems."
+    ],
+    "safetyNotes": [
+      "Handle electronics away from water.",
+      "Use proper grounding."
+    ]
+  },
+  {
+    "id": "PROJECT005",
+    "name": "Ultrasonic Distance Meter",
+    "category": "Sensors",
+    "difficulty": "Intermediate",
+    "description": "A distance measurement circuit using ultrasonic sensor to determine object distance.",
+    "estimatedBuildTime": "1-2 hours",
+    "budget": 400,
+    "components": [
+      {
+        "componentId": "COMP026",
+        "name": "HC-SR04 Ultrasonic Sensor",
+        "quantity": 1,
+        "unitPrice": 8,
+        "totalPrice": 8
+      },
+      {
+        "componentId": "COMP006",
+        "name": "Capacitor 100uF",
+        "quantity": 1,
+        "unitPrice": 5,
+        "totalPrice": 5
+      },
+      {
+        "componentId": "COMP023",
+        "name": "Arduino Uno",
+        "quantity": 1,
+        "unitPrice": 25,
+        "totalPrice": 25
+      },
+      {
+        "componentId": "COMP046",
+        "name": "Battery Holder",
+        "quantity": 1,
+        "unitPrice": 2,
+        "totalPrice": 2
+      }
+    ],
+    "instructions": [
+      "Connect ultrasonic sensor to Arduino.",
+      "Setup trigger and echo pins.",
+      "Upload distance measurement code.",
+      "Test and calibrate measurements."
+    ],
+    "learningOutcomes": [
+      "Understand ultrasonic technology.",
+      "Learn signal timing and measurement.",
+      "Build distance detection systems."
+    ],
+    "safetyNotes": [
+      "Keep sensor away from direct water.",
+      "Check wiring connections carefully."
+    ]
+  },
+  {
+    "id": "PROJECT006",
+    "name": "Digital Temperature Display",
+    "category": "Sensors",
+    "difficulty": "Beginner",
+    "description": "A temperature monitoring circuit displaying readings on an LCD.",
+    "estimatedBuildTime": "1-2 hours",
+    "budget": 350,
+    "components": [
+      {
+        "componentId": "COMP058",
+        "name": "Bluetooth Module",
+        "quantity": 1,
+        "unitPrice": 8,
+        "totalPrice": 8
+      },
+      {
+        "componentId": "COMP033",
+        "name": "16x2 LCD Display",
+        "quantity": 1,
+        "unitPrice": 8,
+        "totalPrice": 8
+      },
+      {
+        "componentId": "COMP032",
+        "name": "DS1307 RTC",
+        "quantity": 1,
+        "unitPrice": 5,
+        "totalPrice": 5
+      },
+      {
+        "componentId": "COMP023",
+        "name": "Arduino Uno",
+        "quantity": 1,
+        "unitPrice": 25,
+        "totalPrice": 25
+      }
+    ],
+    "instructions": [
+      "Connect temperature sensor to Arduino.",
+      "Initialize LCD and serial communication.",
+      "Upload temperature monitoring code.",
+      "Test display accuracy."
+    ],
+    "learningOutcomes": [
+      "Understand temperature sensing.",
+      "Learn data display techniques.",
+      "Build monitoring systems."
+    ],
+    "safetyNotes": [
+      "Use proper sensor wiring.",
+      "Check power connections."
+    ]
+  },
+  {
+    "id": "PROJECT007",
+    "name": "Automatic Plant Watering Prototype",
+    "category": "IoT",
+    "difficulty": "Advanced",
+    "description": "An automated plant watering system that uses soil moisture sensors to trigger irrigation.",
+    "estimatedBuildTime": "4-5 hours",
+    "budget": 800,
+    "components": [
+      {
+        "componentId": "COMP024",
+        "name": "ESP32 Development Board",
+        "quantity": 1,
+        "unitPrice": 35,
+        "totalPrice": 35
+      },
+      {
+        "componentId": "COMP032",
+        "name": "DS1307 RTC",
+        "quantity": 1,
+        "unitPrice": 5,
+        "totalPrice": 5
+      },
+      {
+        "componentId": "COMP051",
+        "name": "Raspberry Pi Pico",
+        "quantity": 1,
+        "unitPrice": 20,
+        "totalPrice": 20
+      },
+      {
+        "componentId": "COMP044",
+        "name": "Jumper Wires",
+        "quantity": 2,
+        "unitPrice": 2,
+        "totalPrice": 4
+      }
+    ],
+    "instructions": [
+      "Setup moisture sensors and microcontrollers.",
+      "Configure irrigation control logic.",
+      "Program scheduling and timing functions.",
+      "Test and calibrate watering cycles."
+    ],
+    "learningOutcomes": [
+      "Understand IoT sensor networks.",
+      "Learn automation systems.",
+      "Develop smart farming technology."
+    ],
+    "safetyNotes": [
+      "Ensure electrical safety.",
+      "Waterproof all connections."
+    ]
+  },
+  {
+    "id": "PROJECT008",
+    "name": "Arduino-Based Obstacle Detector",
+    "category": "Robotics",
+    "difficulty": "Intermediate",
+    "description": "An ultrasonic obstacle detection system for robotics applications.",
+    "estimatedBuildTime": "2-3 hours",
+    "budget": 600,
+    "components": [
+      {
+        "componentId": "COMP026",
+        "name": "HC-SR04 Ultrasonic Sensor",
+        "quantity": 1,
+        "unitPrice": 8,
+        "totalPrice": 8
+      },
+      {
+        "componentId": "COMP023",
+        "name": "Arduino Uno",
+        "quantity": 1,
+        "unitPrice": 25,
+        "totalPrice": 25
+      },
+      {
+        "componentId": "COMP044",
+        "name": "Jumper Wires",
+        "quantity": 2,
+        "unitPrice": 2,
+        "totalPrice": 4
+      },
+      {
+        "componentId": "COMP017",
+        "name": "IRFZ44N MOSFET",
+        "quantity": 1,
+        "unitPrice": 8,
+        "totalPrice": 8
+      }
+    ],
+    "instructions": [
+      "Connect ultrasonic sensor to Arduino.",
+      "Design obstacle detection logic.",
+      "Test with different distances.",
+      "Calibrate detection range."
+    ],
+    "learningOutcomes": [
+      "Understand ultrasonic technology.",
+      "Learn robotics control systems.",
+      "Build obstacle avoidance systems."
+    ],
+    "safetyNotes": [
+      "Ensure proper wiring.",
+      "Check all connections."
+    ]
+  },
+  {
+    "id": "PROJECT009",
+    "name": "Mini Traffic Light Controller",
+    "category": "Embedded Systems",
+    "difficulty": "Intermediate",
+    "description": "A traffic light controller simulation using Arduino for traffic signal timing.",
+    "estimatedBuildTime": "3-4 hours",
+    "budget": 500,
+    "components": [
+      {
+        "componentId": "COMP023",
+        "name": "Arduino Uno",
+        "quantity": 1,
+        "unitPrice": 25,
+        "totalPrice": 25
+      },
+      {
+        "componentId": "COMP007",
+        "name": "Ceramic Capacitor 0.1uF",
+        "quantity": 1,
+        "unitPrice": 2,
+        "totalPrice": 2
+      },
+      {
+        "componentId": "COMP044",
+        "name": "Jumper Wires",
+        "quantity": 2,
+        "unitPrice": 2,
+        "totalPrice": 4
+      },
+      {
+        "componentId": "COMP058",
+        "name": "Bluetooth Module",
+        "quantity": 1,
+        "unitPrice": 8,
+        "totalPrice": 8
+      }
+    ],
+    "instructions": [
+      "Setup Arduino and LED connections.",
+      "Implement traffic light sequencing.",
+      "Test timing and coordination.",
+      "Validate pedestrian crossing."
+    ],
+    "learningOutcomes": [
+      "Understand traffic control systems.",
+      "Learn timing and sequencing.",
+      "Build embedded systems."
+    ],
+    "safetyNotes": [
+      "Use proper LED limiting resistors.",
+      "Check all connections."
+    ]
+  },
+  {
+    "id": "PROJECT010",
+    "name": "IR Remote-Controlled Device",
+    "category": "Communication",
+    "difficulty": "Intermediate",
+    "description": "An infrared remote control system for operating electronic devices.",
+    "estimatedBuildTime": "2-3 hours",
+    "budget": 450,
+    "components": [
+      {
+        "componentId": "COMP058",
+        "name": "Bluetooth Module",
+        "quantity": 1,
+        "unitPrice": 8,
+        "totalPrice": 8
+      },
+      {
+        "componentId": "COMP030",
+        "name": "IR Sensor Module",
+        "quantity": 1,
+        "unitPrice": 4,
+        "totalPrice": 4
+      },
+      {
+        "componentId": "COMP033",
+        "name": "16x2 LCD Display",
+        "quantity": 1,
+        "unitPrice": 8,
+        "totalPrice": 8
+      },
+      {
+        "componentId": "COMP023",
+        "name": "Arduino Uno",
+        "quantity": 1,
+        "unitPrice": 25,
+        "totalPrice": 25
+      }
+    ],
+    "instructions": [
+      "Connect IR sensor to Arduino.",
+      "Setup LCD and remote control logic.",
+      "Upload control software.",
+      "Test remote functionality."
+    ],
+    "learningOutcomes": [
+      "Understand infrared communication.",
+      "Learn control systems.",
+      "Build remote control devices."
+    ],
+    "safetyNotes": [
+      "Use proper shielding.",
+      "Avoid interference sources."
+    ]
+  },
+  {
+    "id": "PROJECT011",
+    "name": "Basic Gas Detection Alarm",
+    "category": "Safety Systems",
+    "difficulty": "Advanced",
+    "description": "A gas detection system using MQ-2 sensor to alert of dangerous gas levels.",
+    "estimatedBuildTime": "3-4 hours",
+    "budget": 700,
+    "components": [
+      {
+        "componentId": "COMP031",
+        "name": "MQ-2 Gas Sensor",
+        "quantity": 1,
+        "unitPrice": 6,
+        "totalPrice": 6
+      },
+      {
+        "componentId": "COMP023",
+        "name": "Arduino Uno",
+        "quantity": 1,
+        "unitPrice": 25,
+        "totalPrice": 25
+      },
+      {
+        "componentId": "COMP071",
+        "name": "Buzzer 5V Active",
+        "quantity": 1,
+        "unitPrice": 12,
+        "totalPrice": 12
+      },
+      {
+        "componentId": "COMP044",
+        "name": "Jumper Wires",
+        "quantity": 2,
+        "unitPrice": 2,
+        "totalPrice": 4
+      }
+    ],
+    "instructions": [
+      "Setup gas sensor and Arduino.",
+      "Install alarm logic.",
+      "Calibrate detection thresholds.",
+      "Test alarm responses."
+    ],
+    "learningOutcomes": [
+      "Understand gas sensing technology.",
+      "Learn safety systems.",
+      "Build detection alarms."
+    ],
+    "safetyNotes": [
+      "Handle sensors carefully.",
+      "Use proper ventilation."
+    ]
+  }
+]

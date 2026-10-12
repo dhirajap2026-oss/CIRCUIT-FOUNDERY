@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Finder - CircuitFoundry</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <header class="header">
+            <div class="container">
+                <div class="header-content">
+                    <h1 class="logo">CircuitFoundry</h1>
+                    <nav class="nav" id="main-nav">
+                        <ul class="nav-list">
+                            <li><a href="index.html" class="nav-link">Home</a></li>
+                            <li><a href="components.html" class="nav-link">Components</a></li>
+                            <li><a href="projects.html" class="nav-link active">Projects</a></li>
+                            <li><a href="inventory.html" class="nav-link">Inventory</a></li>
+                            <li><a href="saved-projects.html" class="nav-link">Saved Projects</a></li>
+                            <li><a href="profile.html" class="nav-link">Profile</a></li>
+                        </ul>
+                    </nav>
+                    <div class="auth-section" id="auth-section">
+                        <a href="login.html" class="btn btn-primary">Login</a>
+                        <a href="signup.html" class="btn btn-secondary">Sign Up</a>
+                    </div>
+                    <div class="user-section" id="user-section" style="display: none;">
+                        <span class="welcome-text">Welcome, <span id="username-display">User</span></span>
+                        <button class="btn btn-logout" onclick="logout()">Logout</button>
+                    </div>
+                    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="container">
+                <section class="page-header">
+                    <h1 class="page-title">Project Finder</h1>
+                    <p class="page-subtitle">Discover electronics projects that fit your budget and available components</p>
+                </section>
+
+                <section class="project-finder-section">
+                    <div class="project-finder-controls">
+                        <div class="budget-section">
+                            <h3 class="control-title">Your Budget</h3>
+                            <div class="budget-input-group">
+                                <span class="currency-symbol">₹</span>
+                                <input type="number" id="project-budget" class="budget-input" placeholder="Enter your budget" min="0" step="10">
+                            </div>
+                        </div>
+
+                        <div class="filters-section">
+                            <h3 class="control-title">Filters</h3>
+                            <div class="filter-group">
+                                <label for="category-filter">Category</label>
+                                <select id="category-filter" class="filter-select">
+                                    <option value="">All Categories</option>
+                                    <option value="Home Automation">Home Automation</option>
+                                    <option value="Sensors">Sensors</option>
+                                    <option value="Arduino">Arduino</option>
+                                    <option value="IoT">IoT</option>
+                                    <option value="Robotics">Robotics</option>
+                                    <option value="Display">Display</option>
+                                    <option value="Power">Power</option>
+                                </select>
+                            </div>
+                            <div class="filter-group">
+                                <label for="difficulty-filter">Difficulty</label>
+                                <select id="difficulty-filter" class="filter-select">
+                                    <option value="">All Difficulties</option>
+                                    <option value="Beginner">Beginner</option>
+                                    <option value="Intermediate">Intermediate</option>
+                                    <option value="Advanced">Advanced</option>
+                                </select>
+                            </div>
+                            <div class="filter-group">
+                                <label for="matching-mode">Matching Mode</label>
+                                <select id="matching-mode" class="filter-select">
+                                    <option value="budget">Fit Budget</option>
+                                    <option value="fewest">Fewest Missing</option>
+                                    <option value="most">Most Components Owned</option>
+                                    <option value="all">All Projects</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <button class="btn btn-primary btn-find-projects" onclick="findProjects()">Find Projects</button>
+                    </div>
+
+                    <div class="inventory-section">
+                        <h3 class="control-title">Your Inventory</h3>
+                        <div class="inventory-controls">
+                            <input type="text" id="inventory-search" class="search-input" placeholder="Search components...">
+                            <button class="btn btn-secondary" onclick="toggleInventoryEdit()">Edit Inventory</button>
+                        </div>
+                        <div class="inventory-list" id="inventory-list">
+                            <!-- Inventory will be populated here -->
+                            <div class="empty-inventory">No components in inventory. Add components from the catalog.</div>
+                        </div>
+                    </div>
+
+                    <div class="project-results-section">
+                        <h3 class="control-title">Project Results</h3>
+                        <div class="project-results-header">
+                            <div class="results-summary">
+                                <span id="results-count">0 projects found</span>
+                            </div>
+                            <div class="sort-controls">
+                                <label for="results-sort">Sort by:</label>
+                                <select id="results-sort" class="filter-select">
+                                    <option value="match-score">Best Match</option>
+                                    <option value="budget-needed">Additional Cost (Low to High)</option>
+                                    <option value="cost-desc">Additional Cost (High to Low)</option>
+                                    <option value="owned-count">Components Owned (Most to Least)</option>
+                                    <option value="budget-desc">Total Cost (High to Low)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="project-results-grid" id="project-results-grid">
+                            <!-- Project results will be populated here -->
+                            <div class="no-results-message">Enter your budget and components to find projects</div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h3 class="footer-title">CircuitFoundry</h3>
+                        <p class="footer-description">Your comprehensive platform for discovering and building electronics projects.</p>
+                    </div>
+                    <div class="footer-section">
+                        <h3 class="footer-title">Quick Links</h3>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="components.html">Components</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="about.html">About</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h3 class="footer-title">Support</h3>
+                        <ul class="footer-links">
+                            <li><a href="help.html">Help Center</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="privacy.html">Privacy Policy</a></li>
+                            <li><a href="terms.html">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p class="copyright">© 2024 CircuitFoundry. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/app.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>

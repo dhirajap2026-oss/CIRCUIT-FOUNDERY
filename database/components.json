@@ -1,0 +1,1853 @@
+[
+  {
+    "id": "COMP001",
+    "name": "Resistor 220 Ohm",
+    "category": "Resistors",
+    "description": "220-ohm resistor for current limiting and basic circuits.",
+    "price": 2,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "resistance": "220 ohm",
+      "power": "0.25 W"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP002",
+    "name": "Resistor 100 Ohm",
+    "category": "Resistors",
+    "description": "100-ohm resistor for current limiting and basic circuits.",
+    "price": 2,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "resistance": "100 ohm",
+      "power": "0.25 W"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP003",
+    "name": "Resistor 1K Ohm",
+    "category": "Resistors",
+    "description": "1-kilohm resistor for biasing and signal circuits.",
+    "price": 2,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "resistance": "1 kohm",
+      "power": "0.25 W"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP004",
+    "name": "Resistor 10K Ohm",
+    "category": "Resistors",
+    "description": "10-kilohm resistor for pull-up and pull-down circuits.",
+    "price": 2,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "resistance": "10 kohm",
+      "power": "0.25 W"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP005",
+    "name": "Resistor 1M Ohm",
+    "category": "Resistors",
+    "description": "1-megohm resistor for high-resistance applications.",
+    "price": 2,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "resistance": "1 Mohm",
+      "power": "0.25 W"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP006",
+    "name": "Resistor 330 Ohm",
+    "category": "Resistors",
+    "description": "330-ohm resistor commonly used with indicator LEDs.",
+    "price": 2,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "resistance": "330 ohm",
+      "power": "0.25 W"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP007",
+    "name": "Resistor 4.7K Ohm",
+    "category": "Resistors",
+    "description": "4.7-kilohm resistor for general electronic circuits.",
+    "price": 2,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "resistance": "4.7 kohm",
+      "power": "0.25 W"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP008",
+    "name": "Resistor  pull-up 2.2K Ohm",
+    "category": "Resistors",
+    "description": "2.2-kilohm resistor for signal and pull-up circuits.",
+    "price": 2,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "resistance": "2.2 kohm",
+      "power": "0.25 W"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP009",
+    "name": "Resistor 47K Ohm",
+    "category": "Resistors",
+    "description": "47-kilohm resistor for biasing applications.",
+    "price": 2,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "resistance": "47 kohm",
+      "power": "0.25 W"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP010",
+    "name": "Resistor 100K Ohm",
+    "category": "Resistors",
+    "description": "100-kilohm resistor for timing and sensing circuits.",
+    "price": 2,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "resistance": "100 kohm",
+      "power": "0.25 W"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP011",
+    "name": "Resistor 1 Ohm",
+    "category": "Resistors",
+    "description": "Low-value resistor for current sensing and experiments.",
+    "price": 3,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "resistance": "1 ohm",
+      "power": "0.25 W"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP012",
+    "name": "Capacitor 10uF",
+    "category": "Capacitors",
+    "description": "10-microfarad capacitor for filtering and coupling.",
+    "price": 3,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "capacitance": "10 uF",
+      "voltage": "25 V"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP013",
+    "name": "Capacitor 100uF",
+    "category": "Capacitors",
+    "description": "100-microfarad capacitor for power-supply smoothing.",
+    "price": 4,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "capacitance": "100 uF",
+      "voltage": "25 V"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP014",
+    "name": "Capacitor 1000uF",
+    "category": "Capacitors",
+    "description": "1000-microfarad capacitor for bulk power filtering.",
+    "price": 8,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "capacitance": "1000 uF",
+      "voltage": "25 V"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP015",
+    "name": "Ceramic Capacitor 100nF",
+    "category": "Capacitors",
+    "description": "100-nanofarad ceramic capacitor for decoupling.",
+    "price": 2,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "capacitance": "100 nF",
+      "voltage": "50 V"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP016",
+    "name": "Ceramic Capacitor 10nF",
+    "category": "Capacitors",
+    "description": "10-nanofarad capacitor for filtering and timing.",
+    "price": 2,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "capacitance": "10 nF",
+      "voltage": "50 V"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP017",
+    "name": "Ceramic Capacitor 1nF",
+    "category": "Capacitors",
+    "description": "1-nanofarad capacitor for high-frequency circuits.",
+    "price": 2,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "capacitance": "1 nF",
+      "voltage": "50 V"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP018",
+    "name": "Capacitor 1uF",
+    "category": "Capacitors",
+    "description": "1-microfarad capacitor for coupling and filtering.",
+    "price": 3,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "capacitance": "1 uF",
+      "voltage": "25 V"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP019",
+    "name": "Capacitor 22uF",
+    "category": "Capacitors",
+    "description": "22-microfarad capacitor for smoothing and timing.",
+    "price": 3,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "capacitance": "22 uF",
+      "voltage": "25 V"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP020",
+    "name": "Capacitor 470uF",
+    "category": "Capacitors",
+    "description": "470-microfarad capacitor for power filtering.",
+    "price": 6,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "capacitance": "470 uF",
+      "voltage": "25 V"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP021",
+    "name": "Film Capacitor 1uF",
+    "category": "Capacitors",
+    "description": "Film capacitor for stable signal and audio circuits.",
+    "price": 8,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "capacitance": "1 uF",
+      "voltage": "100 V"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP022",
+    "name": "LED Red 5mm",
+    "category": "LEDs",
+    "description": "Red 5 mm LED for status indication and projects.",
+    "price": 3,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "color": "red",
+      "diameter": "5 mm",
+      "forwardVoltage": "1.8-2.2 V"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP023",
+    "name": "LED Green 5mm",
+    "category": "LEDs",
+    "description": "Green 5 mm LED for status indication.",
+    "price": 3,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "color": "green",
+      "diameter": "5 mm",
+      "forwardVoltage": "2.0-3.2 V"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP024",
+    "name": "LED Blue 5mm",
+    "category": "LEDs",
+    "description": "Blue 5 mm LED for indicators and displays.",
+    "price": 4,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "color": "blue",
+      "diameter": "5 mm",
+      "forwardVoltage": "2.8-3.4 V"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP025",
+    "name": "LED Yellow 5mm",
+    "category": "LEDs",
+    "description": "Yellow 5 mm LED for visual indicators.",
+    "price": 3,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "color": "yellow",
+      "diameter": "5 mm",
+      "forwardVoltage": "2.0-2.2 V"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP026",
+    "name": "LED White 5mm",
+    "category": "LEDs",
+    "description": "White 5 mm LED for basic lighting projects.",
+    "price": 4,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "color": "white",
+      "diameter": "5 mm",
+      "forwardVoltage": "2.8-3.4 V"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP027",
+    "name": "RGB LED 5mm",
+    "category": "LEDs",
+    "description": "RGB LED for multicolor indication and effects.",
+    "price": 8,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "color": "RGB",
+      "diameter": "5 mm",
+      "type": "common cathode"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP028",
+    "name": "Infrared LED",
+    "category": "LEDs",
+    "description": "Infrared emitter for sensor and remote-control circuits.",
+    "price": 5,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "wavelength": "940 nm",
+      "forwardVoltage": "1.2-1.5 V"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP029",
+    "name": "Photodiode",
+    "category": "Optoelectronics",
+    "description": "Photodiode for light detection and sensing.",
+    "price": 12,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "type": "silicon",
+      "package": "5 mm"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP030",
+    "name": "LDR Photoresistor",
+    "category": "Sensors",
+    "description": "Light-dependent resistor for light sensing circuits.",
+    "price": 8,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "type": "photoresistor",
+      "peakResponse": "visible light"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP031",
+    "name": "7-Segment Display",
+    "category": "Displays",
+    "description": "Single-digit display for numeric electronic projects.",
+    "price": 15,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "digits": "1",
+      "color": "red",
+      "commonType": "common cathode"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP032",
+    "name": "Diode 1N4007",
+    "category": "Diodes",
+    "description": "General-purpose rectifier diode for power circuits.",
+    "price": 2,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "type": "rectifier",
+      "maximumVoltage": "1000 V",
+      "current": "1 A"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP033",
+    "name": "Diode 1N4148",
+    "category": "Diodes",
+    "description": "Fast switching diode for signal circuits.",
+    "price": 2,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "type": "switching",
+      "maximumVoltage": "100 V",
+      "current": "200 mA"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP034",
+    "name": "Schottky Diode 1N5819",
+    "category": "Diodes",
+    "description": "Schottky diode for low-voltage rectification.",
+    "price": 5,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "type": "Schottky",
+      "maximumVoltage": "40 V",
+      "current": "1 A"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP035",
+    "name": "Zener Diode 5.1V",
+    "category": "Diodes",
+    "description": "5.1-volt Zener diode for reference and clamping circuits.",
+    "price": 3,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "zenerVoltage": "5.1 V",
+      "power": "0.5 W"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP036",
+    "name": "Bridge Rectifier DB107",
+    "category": "Diodes",
+    "description": "Bridge rectifier for AC-to-DC conversion.",
+    "price": 8,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "type": "bridge",
+      "maximumVoltage": "1000 V",
+      "current": "1 A"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP037",
+    "name": "NPN Transistor BC547",
+    "category": "Transistors",
+    "description": "NPN transistor for switching and small-signal amplification.",
+    "price": 3,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "type": "NPN",
+      "maximumVoltage": "45 V",
+      "collectorCurrent": "100 mA"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP038",
+    "name": "PNP Transistor BC557",
+    "category": "Transistors",
+    "description": "PNP transistor for switching and amplifier circuits.",
+    "price": 3,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "type": "PNP",
+      "maximumVoltage": "45 V",
+      "collectorCurrent": "100 mA"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP039",
+    "name": "NPN Transistor 2N2222",
+    "category": "Transistors",
+    "description": "General-purpose NPN transistor for switching.",
+    "price": 5,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "type": "NPN",
+      "maximumVoltage": "40 V",
+      "collectorCurrent": "600 mA"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP040",
+    "name": "Power Transistor TIP122",
+    "category": "Transistors",
+    "description": "Darlington NPN transistor for driving moderate loads.",
+    "price": 12,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "type": "NPN Darlington",
+      "maximumVoltage": "100 V",
+      "collectorCurrent": "5 A"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP041",
+    "name": "MOSFET IRFZ44N",
+    "category": "Transistors",
+    "description": "N-channel power MOSFET for switching applications.",
+    "price": 25,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "type": "N-channel",
+      "drainSourceVoltage": "55 V",
+      "continuousDrainCurrent": "49 A"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP042",
+    "name": "555 Timer IC",
+    "category": "Integrated Circuits",
+    "description": "Timer IC for pulse generation and oscillator circuits.",
+    "price": 10,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "package": "DIP-8",
+      "supplyVoltage": "4.5-16 V"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP043",
+    "name": "LM358 Op-Amp",
+    "category": "Integrated Circuits",
+    "description": "Dual operational amplifier for sensor and signal circuits.",
+    "price": 8,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "package": "DIP-8",
+      "channels": "2",
+      "supplyVoltage": "3-32 V"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP044",
+    "name": "LM741 Op-Amp",
+    "category": "Integrated Circuits",
+    "description": "General-purpose operational amplifier for learning circuits.",
+    "price": 8,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "package": "DIP-8",
+      "channels": "1",
+      "supplyVoltage": "typically +/- 15 V"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP045",
+    "name": "LM7805 Voltage Regulator",
+    "category": "Voltage Regulators",
+    "description": "5 V linear regulator for regulated power supplies.",
+    "price": 8,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "outputVoltage": "5 V",
+      "maximumCurrent": "1 A"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP046",
+    "name": "LM7812 Voltage Regulator",
+    "category": "Voltage Regulators",
+    "description": "12 V linear regulator for power supply circuits.",
+    "price": 8,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "outputVoltage": "12 V",
+      "maximumCurrent": "1 A"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP047",
+    "name": "LM317 Adjustable Regulator",
+    "category": "Voltage Regulators",
+    "description": "Adjustable linear voltage regulator.",
+    "price": 12,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "outputVoltage": "1.25-37 V",
+      "maximumCurrent": "1.5 A"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP048",
+    "name": "AMS1117 3.3V Regulator",
+    "category": "Voltage Regulators",
+    "description": "3.3 V regulator for low-voltage digital circuits.",
+    "price": 6,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "outputVoltage": "3.3 V",
+      "package": "SOT-223"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP049",
+    "name": "Arduino Uno Compatible Board",
+    "category": "Development Boards",
+    "description": "Microcontroller board for learning and prototyping.",
+    "price": 450,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "microcontroller": "ATmega328P",
+      "logicVoltage": "5 V",
+      "digitalPins": 14
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP050",
+    "name": "ESP32 Development Board",
+    "category": "Development Boards",
+    "description": "Wi-Fi and Bluetooth development board for IoT projects.",
+    "price": 350,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "wireless": "Wi-Fi and Bluetooth",
+      "logicVoltage": "3.3 V"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP051",
+    "name": "Raspberry Pi Pico",
+    "category": "Development Boards",
+    "description": "Microcontroller board based on RP2040.",
+    "price": 400,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "microcontroller": "RP2040",
+      "logicVoltage": "3.3 V",
+      "flash": "2 MB"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP052",
+    "name": "ATmega328P Microcontroller",
+    "category": "Microcontrollers",
+    "description": "8-bit microcontroller for embedded projects.",
+    "price": 180,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "architecture": "8-bit AVR",
+      "flash": "32 KB",
+      "package": "DIP-28"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP053",
+    "name": "PIC16F877A Microcontroller",
+    "category": "Microcontrollers",
+    "description": "8-bit microcontroller for embedded control projects.",
+    "price": 250,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "architecture": "8-bit PIC",
+      "flash": "14 KB",
+      "package": "DIP-40"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP054",
+    "name": "74HC00 NAND Gate IC",
+    "category": "Logic ICs",
+    "description": "Quad two-input NAND logic gate IC.",
+    "price": 8,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "gates": 4,
+      "gateType": "NAND",
+      "package": "DIP-14"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP055",
+    "name": "74HC04 Inverter IC",
+    "category": "Logic ICs",
+    "description": "Hex inverter for digital logic circuits.",
+    "price": 8,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "gates": 6,
+      "gateType": "NOT",
+      "package": "DIP-14"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP056",
+    "name": "74HC08 AND Gate IC",
+    "category": "Logic ICs",
+    "description": "Quad two-input AND logic gate IC.",
+    "price": 8,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "gates": 4,
+      "gateType": "AND",
+      "package": "DIP-14"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP057",
+    "name": "74HC32 OR Gate IC",
+    "category": "Logic ICs",
+    "description": "Quad two-input OR logic gate IC.",
+    "price": 8,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "gates": 4,
+      "gateType": "OR",
+      "package": "DIP-14"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP058",
+    "name": "74HC86 XOR Gate IC",
+    "category": "Logic ICs",
+    "description": "Quad two-input XOR logic gate IC.",
+    "price": 10,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "gates": 4,
+      "gateType": "XOR",
+      "package": "DIP-14"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP059",
+    "name": "CD4017 Decade Counter",
+    "category": "Logic ICs",
+    "description": "Decade counter for LED sequencing and timing projects.",
+    "price": 12,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "type": "decade counter",
+      "outputs": 10,
+      "package": "DIP-16"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP060",
+    "name": "CD4026 Counter Display Driver",
+    "category": "Logic ICs",
+    "description": "Counter and seven-segment display driver IC.",
+    "price": 15,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "type": "counter/display driver",
+      "package": "DIP-16"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP061",
+    "name": "ULN2003 Driver IC",
+    "category": "Driver ICs",
+    "description": "Seven-channel Darlington driver for relays and small motors.",
+    "price": 12,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "channels": 7,
+      "maximumVoltage": "50 V",
+      "package": "DIP-16"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP062",
+    "name": "L293D Motor Driver IC",
+    "category": "Driver ICs",
+    "description": "Dual H-bridge driver for small DC motors.",
+    "price": 25,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "channels": 2,
+      "motorSupply": "4.5-36 V",
+      "package": "DIP-16"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP063",
+    "name": "A4988 Stepper Driver",
+    "category": "Driver ICs",
+    "description": "Stepper motor driver module for motion projects.",
+    "price": 80,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "motorSupply": "8-35 V",
+      "microstepping": "up to 1/16"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP064",
+    "name": "Relay 5V SPDT",
+    "category": "Relays",
+    "description": "5 V coil relay for switching external loads.",
+    "price": 25,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "coilVoltage": "5 V",
+      "contactType": "SPDT",
+      "contactRating": "10 A at 250 VAC"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP065",
+    "name": "Relay 12V SPDT",
+    "category": "Relays",
+    "description": "12 V coil relay for control and automation circuits.",
+    "price": 25,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "coilVoltage": "12 V",
+      "contactType": "SPDT",
+      "contactRating": "10 A at 250 VAC"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP066",
+    "name": "Push Button Switch",
+    "category": "Switches",
+    "description": "Momentary push button for input and control.",
+    "price": 5,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "type": "momentary",
+      "contact": "normally open"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP067",
+    "name": "Toggle Switch SPST",
+    "category": "Switches",
+    "description": "Single-pole single-throw toggle switch.",
+    "price": 12,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "type": "SPST",
+      "rating": "6 A at 125 VAC"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP068",
+    "name": "Slide Switch",
+    "category": "Switches",
+    "description": "Small slide switch for selecting circuit states.",
+    "price": 4,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "type": "SPDT",
+      "mounting": "PCB"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP069",
+    "name": "Rotary Potentiometer 10K",
+    "category": "Potentiometers",
+    "description": "10-kilohm potentiometer for adjustable voltage and input.",
+    "price": 10,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "resistance": "10 kohm",
+      "taper": "linear"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP070",
+    "name": "Trimmer Potentiometer 10K",
+    "category": "Potentiometers",
+    "description": "Adjustable trimmer for circuit calibration.",
+    "price": 6,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "resistance": "10 kohm",
+      "taper": "linear"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP071",
+    "name": "Buzzer 5V Active",
+    "category": "Buzzers",
+    "description": "Active buzzer for audible alerts and status signals.",
+    "price": 12,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "voltage": "5 V",
+      "type": "active"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP072",
+    "name": "Piezo Disc",
+    "category": "Buzzers",
+    "description": "Piezoelectric disc for sound and vibration experiments.",
+    "price": 8,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "type": "piezoelectric",
+      "diameter": "27 mm"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP073",
+    "name": "DC Motor 3-6V",
+    "category": "Motors",
+    "description": "Small DC motor for basic robotics and experiments.",
+    "price": 25,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "voltage": "3-6 V",
+      "type": "brushed DC"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP074",
+    "name": "Servo Motor SG90",
+    "category": "Motors",
+    "description": "Micro servo for angle-controlled mechanisms.",
+    "price": 100,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "voltage": "4.8-6 V",
+      "rotation": "approximately 180 degrees"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP075",
+    "name": "Stepper Motor 28BYJ-48",
+    "category": "Motors",
+    "description": "Small geared stepper motor for position-control projects.",
+    "price": 120,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "voltage": "5 V",
+      "phases": 4
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP076",
+    "name": "Ultrasonic Sensor HC-SR04",
+    "category": "Sensors",
+    "description": "Ultrasonic module for distance measurement.",
+    "price": 65,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "range": "2-400 cm",
+      "operatingVoltage": "5 V"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP077",
+    "name": "DHT11 Temperature Humidity Sensor",
+    "category": "Sensors",
+    "description": "Digital sensor for basic temperature and humidity measurements.",
+    "price": 80,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "measurements": "temperature and humidity",
+      "operatingVoltage": "3-5 V"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP078",
+    "name": "DS18B20 Temperature Sensor",
+    "category": "Sensors",
+    "description": "Digital temperature sensor for monitoring projects.",
+    "price": 60,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "range": "-55 to 125 C",
+      "interface": "1-Wire"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP079",
+    "name": "PIR Motion Sensor HC-SR501",
+    "category": "Sensors",
+    "description": "Passive infrared sensor for motion detection.",
+    "price": 70,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "type": "PIR",
+      "supplyVoltage": "5-12 V"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP080",
+    "name": "MQ-2 Gas Sensor",
+    "category": "Sensors",
+    "description": "Gas and smoke sensor module for demonstrations.",
+    "price": 90,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "detects": "LPG, smoke and combustible gases",
+      "supplyVoltage": "5 V"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP081",
+    "name": "Soil Moisture Sensor",
+    "category": "Sensors",
+    "description": "Sensor module for monitoring soil moisture.",
+    "price": 35,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "output": "analog",
+      "supplyVoltage": "3.3-5 V"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP082",
+    "name": "IR Obstacle Sensor",
+    "category": "Sensors",
+    "description": "Infrared reflective sensor for obstacle detection.",
+    "price": 30,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "output": "digital",
+      "supplyVoltage": "3.3-5 V"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP083",
+    "name": "Hall Effect Sensor A3144",
+    "category": "Sensors",
+    "description": "Magnetic field sensor for position and speed detection.",
+    "price": 12,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "type": "digital Hall effect",
+      "supplyVoltage": "4.5-24 V"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP084",
+    "name": "MPU6050 IMU Module",
+    "category": "Sensors",
+    "description": "Six-axis motion sensor for orientation projects.",
+    "price": 100,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "sensors": "3-axis accelerometer and 3-axis gyroscope",
+      "interface": "I2C"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP085",
+    "name": "BMP280 Pressure Sensor",
+    "category": "Sensors",
+    "description": "Digital pressure and temperature sensor module.",
+    "price": 100,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "measurements": "pressure and temperature",
+      "interface": "I2C/SPI"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP086",
+    "name": "Microphone Sound Sensor Module",
+    "category": "Sensors",
+    "description": "Microphone module for sound detection experiments.",
+    "price": 35,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "output": "analog/digital",
+      "supplyVoltage": "3.3-5 V"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP087",
+    "name": "Breadboard 830 Points",
+    "category": "Prototyping",
+    "description": "Solderless breadboard for temporary circuit assembly.",
+    "price": 100,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "tiePoints": 830,
+      "type": "solderless"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP088",
+    "name": "Mini Breadboard 400 Points",
+    "category": "Prototyping",
+    "description": "Compact solderless breadboard for small circuits.",
+    "price": 55,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "tiePoints": 400,
+      "type": "solderless"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP089",
+    "name": "Jumper Wires M-M 40pcs",
+    "category": "Wires and Cables",
+    "description": "Male-to-male jumper wire set for breadboard wiring.",
+    "price": 45,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "quantity": 40,
+      "connector": "male-to-male"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP090",
+    "name": "Jumper Wires M-F 40pcs",
+    "category": "Wires and Cables",
+    "description": "Male-to-female jumper wire set for module connections.",
+    "price": 50,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "quantity": 40,
+      "connector": "male-to-female"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP091",
+    "name": "Jumper Wires F-F 40pcs",
+    "category": "Wires and Cables",
+    "description": "Female-to-female jumper wire set for module connections.",
+    "price": 50,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "quantity": 40,
+      "connector": "female-to-female"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP092",
+    "name": "USB Cable Type A to Micro USB",
+    "category": "Wires and Cables",
+    "description": "USB cable for powering and programming compatible boards.",
+    "price": 35,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "connectors": "USB-A to Micro-USB",
+      "length": "1 m"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP093",
+    "name": "9V Battery Clip",
+    "category": "Power Supplies",
+    "description": "Battery clip with leads for 9 V battery connections.",
+    "price": 8,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "batteryType": "9 V",
+      "output": "two-wire leads"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP094",
+    "name": "Battery Holder 4xAA",
+    "category": "Power Supplies",
+    "description": "Holder for four AA cells in portable projects.",
+    "price": 25,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "cells": 4,
+      "batteryType": "AA"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP095",
+    "name": "18650 Li-ion Cell Holder",
+    "category": "Power Supplies",
+    "description": "Single-cell holder for compatible 18650 batteries.",
+    "price": 20,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "cells": 1,
+      "batteryType": "18650"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP096",
+    "name": "DC Barrel Jack Adapter",
+    "category": "Connectors",
+    "description": "DC barrel jack adapter for power input connections.",
+    "price": 12,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "connector": "5.5 x 2.1 mm",
+      "type": "female jack"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP097",
+    "name": "Screw Terminal Block 2P",
+    "category": "Connectors",
+    "description": "Two-position screw terminal for secure wire connections.",
+    "price": 5,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "positions": 2,
+      "pitch": "5.08 mm"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP098",
+    "name": "Pin Header Male 40-pin",
+    "category": "Connectors",
+    "description": "Breakaway male pin header for PCB and module connections.",
+    "price": 8,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "pins": 40,
+      "pitch": "2.54 mm",
+      "type": "male"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP099",
+    "name": "IC Socket DIP-8",
+    "category": "Connectors",
+    "description": "Eight-pin DIP socket to protect ICs during soldering.",
+    "price": 3,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "pins": 8,
+      "package": "DIP"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP100",
+    "name": "Fuse 1A 5x20mm",
+    "category": "Protection",
+    "description": "One-amp fuse for circuit overcurrent protection.",
+    "price": 5,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "current": "1 A",
+      "size": "5 x 20 mm"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  },
+  {
+    "id": "COMP101",
+    "name": "Resettable Polyfuse 500mA",
+    "category": "Protection",
+    "description": "Resettable fuse for low-current circuit protection.",
+    "price": 8,
+    "unit": "piece",
+    "stockType": "individual",
+    "specifications": {
+      "holdCurrent": "500 mA",
+      "type": "PTC"
+    },
+    "compatibleProjects": [
+      "PROJECT001",
+      "PROJECT003",
+      "PROJECT006"
+    ]
+  }
+]
